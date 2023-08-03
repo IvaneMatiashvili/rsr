@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+form {
+    width: 100vw;
+    color: black !important;
+    margin-bottom: 4rem;
+}
+
+.fixed-position {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 100vw;
+    position: fixed;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    min-height: 100vh;
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+}
+.question-container {
+    margin-top: 2rem;
+}
+
+.ans-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    height: 3rem;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.remove-btn {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    height: 3rem;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.answer {
+    display: none;
+}
+.paragraph-margin {
+    margin-top: 2rem;
+}
+
+.ela-needs-to-be-destroyed {
+    margin-top: 5rem;
+    position: fixed;
+    height: 60vh;
+    width: 60vw;
+    background: #e6e6fa;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    border-radius: 10px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.destroying-text-first {
+    font-size: 1.2rem;
+}
+.destroying-text-second {
+    margin-top: 3rem;
+    font-size: 1.2rem;
+}
+
+.bland-container {
+    background: #e6e6fa;
+    width: 12rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.close-modal-container {
+    position: fixed;
+    background: transparent;
+    width: 100vw;
+    height: 100%;
+    display: none;
+}
